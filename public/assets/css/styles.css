@@ -186,14 +186,14 @@ header::after {
 .card_2:hover {
   transform: scale(1.05);
 
-  transition: transform 0.5s;
+  transition: transform 0.3s ease;
 }
 
 .card_3:hover,
 .card_4:hover {
   transform: scale(1.05);
 
-  transition: transform 0.5s;
+  transition: transform 0.3s ease;
 }
 
 .card_1 {
@@ -270,11 +270,10 @@ header::after {
   grid-area: 1 / 1;
   z-index: 2;
   position: relative;
-  filter: drop-shadow(0px 0px 2px #946e39) brightness(120%);
+  filter: drop-shadow(0px 0px 20px #946e39);
   transition: filter 0.5s ease, scale 0.5s ease;
 }
 .img_title img:hover {
-  filter: drop-shadow(0px 0px 20px #946e39);
   scale: 1.05;
 }
 .button_title {
